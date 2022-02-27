@@ -1,0 +1,92 @@
+/*
+References:
+I heavily referenced both the Bootstrap site and w3schools.com to complete this assignment.
+*/
+
+p {
+    font-size:x-large; /* Increase size of <p> and <ul> */
+}
+
+a { 
+    color: hotpink /* Change color of hyperlinks to hotpink */
+}
+
+form {
+    color: black; /* text inside for set to Black */
+}
+
+img { /* Gives all images a HOTPINK border */
+    border: solid;
+    border-color: hotpink;
+    border-width: 5px;
+}
+
+.supersize-that{
+    font-size:x-large /* Increases the size of text */
+}
+
+.bold-that{
+    font-weight:bolder; /* Bolds Text */
+}
+
+.underline-that{
+    text-decoration: underline; /* Underlines Text */
+}
+
+.soft-that{
+    font-weight:lighter; /* Lightens text for less important info */
+}
+
+/* Class used to style the header */
+.header {
+    background-color: hotpink;
+    color: black;
+    text-align: center;
+}
+
+/* Class used to style the footer */
+.footer {
+    background-color: hotpink;
+    color: white;
+    text-align: center;
+}
+
+/* Class used to override bootstrap text --> WHITE */
+.text-white {
+    color: white;
+}
+
+/* 
+Class used for most of main content:
+--Background --> TEAL
+--Centers Content
+--Changes text --> WHITE
+*/
+.my-content {
+    background-color: teal;
+    display:flex;
+    justify-content: center;
+    color: white;
+}
+
+/* Class used to add extra space when needed in main content area */
+.spacer-1 {
+    background-color: teal;
+    display:flex;
+    height:75px;
+}
+
+/* Class used to Style the Form Container*/ 
+.form-box {
+    width: 700px;
+    height: 350px;
+    left: 473px;
+    top: 306px;
+    background: white;
+    border: solid;
+    border-color: hotpink;
+    border-width: 5px;
+}
+
+
+
